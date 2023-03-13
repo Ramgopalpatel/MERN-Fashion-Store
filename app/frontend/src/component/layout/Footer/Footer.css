@@ -1,0 +1,118 @@
+.leftFooter > h4 {
+  font-family: "Roboto";
+  font-size: 3vmax;
+  margin-bottom: 10px;
+}
+.leftFooter > p {
+  text-align: center;
+  font-size: 1.5vmax;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.leftFooter > img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+
+.midFooter > p {
+  max-width: 60%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1vmax auto;
+}
+
+.rightFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  text-decoration: underline;
+}
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 1.3vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  transition: all 0.5s;
+  margin: 0.5vmax;
+}
+
+.rightFooter > a:hover {
+  color: #eb4034;
+}
+@media (max-width: 700px) {
+  footer {
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .leftFooter > h4 {
+    font-family: "Roboto";
+    font-size: 3vmax;
+    margin-bottom: 10px;
+  }
+
+  .leftFooter {
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+  }
+  .midFooter {
+    width: 100%;
+
+    text-align: center;
+  }
+  .logo {
+    width: 30vmax;
+  }
+  .rightFooter {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightFooter h4 {
+    font-size: 3vmax;
+  }
+}
+
+@media (min-width: 700px) {
+  footer {
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .leftFooter > h4 {
+    font-family: "Roboto";
+    font-size: 1.5vmax;
+    margin-bottom: 10px;
+  }
+
+  .leftFooter {
+    width: 20%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+  }
+  .midFooter {
+    width: 60%;
+
+    text-align: center;
+  }
+  .rightFooter {
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -5,7 +5,7 @@ There are various functionality  for admin like create product,update product, d
 
 technology used:--
 
-Frontend:-- HTML,CSS,JAVASCRIPT,BOOTSTRAP,REACT JS AND REDUX 
+Frontend:-- HTML, CSS, JAVASCRIPT, BOOTSTRAP, REACT JS AND REDUX 
 
 Backend:-- NODE JS, EXPRESS JS
 
